@@ -1,0 +1,55 @@
+#solid-wood {
+    border: solid 2px rgb(255, 136, 0);
+}
+
+.top-2 {
+    font-size: 45px;
+    font-family: auto;
+    margin-top: 60px;
+    color: rgb(255, 136, 0);
+}
+
+.caption-1 {
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.choose li {
+    text-align: initial;
+}
+
+.features li {
+    text-align: initial;
+}
+
+.specifications li {
+    text-align: initial;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+
+.customized {
+    font-style: italic;
+    color: rgb(255, 136, 0);
+    text-align: end;
+    padding-right: 20px;
+    padding-top: 126px
+}
+
+.top-2::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: rgb(255, 136, 0);
+    transition: 3s;
+}
+
+.top-2:hover::after {
+    width: 100%;
+    transition: 3s;
+}
